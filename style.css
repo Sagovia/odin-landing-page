@@ -98,6 +98,26 @@ body {
     flex: 1 1 0px;
 }
 
+.body3align {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: center;
+}
+
+.body3quote {
+    flex: 5;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.body3source {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
 
 
 /* BODY4 */
