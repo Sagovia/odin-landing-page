@@ -40,6 +40,21 @@ body {
 /* BODY1 */
 .body1 {
     flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftBody1 {
+    flex: 1;
+    min-height: 75%;
+    margin-left: 10%;
+}
+
+.rightBody1 {
+    flex: 1;
+    min-height: 75%;
+    margin-right: 10%;
 }
 
 
