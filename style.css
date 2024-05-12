@@ -1,4 +1,17 @@
 
+/* OVERALL STRUCTURE */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 
 /* HEADER */
@@ -21,4 +34,30 @@
     padding: 0px;
     list-style-type: none;
     gap: 16px;
+}
+
+
+/* BODY1 */
+.body1 {
+    flex: 1 1 0px;
+}
+
+
+
+/* BODY2 */
+.body2 {
+    flex: 1 1 0px;
+}
+
+
+/* BODY3 */
+.body3 {
+    flex: 1 1 0px;
+}
+
+
+
+/* BODY4 */
+.body4 {
+    flex: 1 1 0px; 
 }
