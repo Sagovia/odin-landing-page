@@ -123,4 +123,34 @@ body {
 /* BODY4 */
 .body4 {
     flex: 1 1 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body4outerbox {
+    background-color: lightblue;
+    width: 65%;
+    padding: 20px 80px;
+    display: flex;
+}
+
+.body4leftside {
+    flex-shrink: 0;
+}
+
+.body4rightside {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
