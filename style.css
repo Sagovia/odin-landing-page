@@ -1,0 +1,24 @@
+
+
+
+/* HEADER */
+.header {
+    display: flex;
+    padding: 16px;
+}
+
+.headerLogo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.headerLinks {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 16px;
+}
